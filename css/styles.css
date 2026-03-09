@@ -1,0 +1,92 @@
+/* Color Palette
+#0f5e5e - color 1
+#12727d - color 2
+#fef9f5 - color 3
+#fcb886 - color 4
+#894329 - color 5
+
+/* Global styles 
+------------------------------------*/
+body {
+    background:#fcb886;
+    font-family: Mono Cascadia 1em; margin: 0;
+}
+h1 {
+    font-family: Oswald 2em; margin: 0;
+}
+h2 {
+    font-family: Oswald 1.5em; margin-top: 0; margin: 0;
+}
+.content-wrap {
+    max-width: 950px; margin: 0 auto; padding: 50px; overflow: hidden;
+}
+/*box fix*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+header{
+    background-image: linear-gradient(rgba(15,94,94,0.75),rgba(15,94,94,0.75)) ,url(../images/reddeadmt.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+}
+/*.alpha {
+    background-color: rgba(15,94,94,0.75);
+    background-size: cover;
+}*/
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background:#894329;
+    margin-bottom: 5px;
+    z-index: 1000;
+}
+nav a {
+    background:#fcb886;
+}
+.navigation {
+    text-align: center;
+}
+.navigation a {
+    padding: 10px;
+    display: inline-block;
+}
+footer{
+    text-align: center;
+    background:#0f5e5e;
+}
+.profile-img {
+    /*width: 300px; border-radius: 50%; float: left; margin-right: 30px;*/ border-radius: 50%;
+}
+.column-narrow {
+    width: 30%; float: left; padding-right: 3%; min-height: 175px;
+}
+.column-wide {
+    width: 70%; float: left; min-height: 225px;
+}
+
+
+/* Work Experience
+------------------------------------*/
+#work {
+    background:#12727d;
+}
+
+/* Education
+------------------------------------*/
+#education {
+    background:#12727d;
+}
+
+.contact-info a{
+    padding: 10px; display: inline-block;
+}
