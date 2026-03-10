@@ -34,7 +34,7 @@ html {
 header{
     background-image: linear-gradient(rgba(15,94,94,0.75),rgba(15,94,94,0.75)) ,url(../images/reddeadmt.jpg);
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
